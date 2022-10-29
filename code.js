@@ -67,3 +67,18 @@ function tablas(){
         }
     document.write(`<a class="nav-link active" aria-current="page" href="tablas.html">Volver</a>`)
 }
+
+
+function numerosPrimos(){
+
+document.write(`<h1> NUMEROS PRIMOS DEL 1 AL 100: </h1>`);
+
+for(let i = 0; i < 101; i++ ){
+    let contador = 0;
+    for(let j = 1; j <= i; j++ ){
+        if(i % j == 0)contador++;
+    }
+    if(contador == 2)  document.write(`${i}, `);
+}
+document.write(`<a class="nav-link active" aria-current="page" href="index.html">Volver</a>`)
+}
