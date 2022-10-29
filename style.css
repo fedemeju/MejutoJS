@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boton{
+    width: 150px;
+    padding: 10px;
+    background: gray;
+    border-radius: 5px;
+    
+}
+
+.main__b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* plazo fijo */
+
+.plazo__fijo{
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plazo__fijo h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form-control, .boton{
+    max-width: 300px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    
+}
